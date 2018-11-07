@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mixed-Reality-Bible-Project1", "Mixed-Reality-Bible-Project1.csproj", "{5BAF2C74-54B1-DB14-D752-A67C343EE1F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mixed-Reality-Bible-Project1.Plugins", "Mixed-Reality-Bible-Project1.Plugins.csproj", "{832E7A10-9F18-FBE9-04C8-536BA16062EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mixed-Reality-Bible-Project1.Editor", "Mixed-Reality-Bible-Project1.Editor.csproj", "{8BF2FA5A-02FE-5051-38C5-0F711156D5C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mixed-Reality-Bible-Project1.Editor.Plugins", "Mixed-Reality-Bible-Project1.Editor.Plugins.csproj", "{1032326B-3D73-A83E-571A-1EC71FFDCA3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BAF2C74-54B1-DB14-D752-A67C343EE1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BAF2C74-54B1-DB14-D752-A67C343EE1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BAF2C74-54B1-DB14-D752-A67C343EE1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BAF2C74-54B1-DB14-D752-A67C343EE1F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832E7A10-9F18-FBE9-04C8-536BA16062EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832E7A10-9F18-FBE9-04C8-536BA16062EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832E7A10-9F18-FBE9-04C8-536BA16062EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832E7A10-9F18-FBE9-04C8-536BA16062EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF2FA5A-02FE-5051-38C5-0F711156D5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF2FA5A-02FE-5051-38C5-0F711156D5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF2FA5A-02FE-5051-38C5-0F711156D5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF2FA5A-02FE-5051-38C5-0F711156D5C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1032326B-3D73-A83E-571A-1EC71FFDCA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1032326B-3D73-A83E-571A-1EC71FFDCA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1032326B-3D73-A83E-571A-1EC71FFDCA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1032326B-3D73-A83E-571A-1EC71FFDCA3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
