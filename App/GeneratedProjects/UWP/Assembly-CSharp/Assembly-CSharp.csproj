@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{36886572-76b4-4a95-af90-a743d3b059bb}</ProjectGuid>
+    <ProjectGuid>{0fdc7aaf-dedc-42fd-9b90-089a04fca295}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\Charinee\Documents\GitHub\Mixed-Reality-Bible-Project1\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{28702b92-febb-4b37-8a27-6a86dd547bac}</Project>
+      <Project>{b3847e85-d824-4cab-b909-c715ee7ddfca}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <Reference Include="UnityEngine.TextRenderingModule">
@@ -360,12 +360,6 @@
     <SDKReference Include="WindowsTeam, Version=10.0.17134.0"/>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="$(UnityProjectDir)Assets\Holograms\Support\AstroMan\SetRendererSettings.cs">
-      <Link>Holograms\Support\AstroMan\SetRendererSettings.cs</Link>
-    </Compile>
-    <Compile Include="$(UnityProjectDir)Assets\Holograms\Support\Fitbox\Fitbox.cs">
-      <Link>Holograms\Support\Fitbox\Fitbox.cs</Link>
-    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\Boundary\Scripts\BoundaryManager.cs">
       <Link>HoloToolkit\Boundary\Scripts\BoundaryManager.cs</Link>
     </Compile>
@@ -872,6 +866,12 @@
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\SpatialMapping\Scripts\TapToPlace.cs">
       <Link>HoloToolkit\SpatialMapping\Scripts\TapToPlace.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\Support\AstroMan\SetRendererSettings.cs">
+      <Link>HoloToolkit\Support\AstroMan\SetRendererSettings.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\Support\Fitbox\Fitbox.cs">
+      <Link>HoloToolkit\Support\Fitbox\Fitbox.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\Utilities\Scripts\AdaptiveQuality\AdaptiveQuality.cs">
       <Link>HoloToolkit\Utilities\Scripts\AdaptiveQuality\AdaptiveQuality.cs</Link>

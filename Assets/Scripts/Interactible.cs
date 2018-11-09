@@ -60,7 +60,7 @@ namespace Academy
             for (int i = 0; i < defaultMaterials.Length; i++)
             {
                 // 2.d: Uncomment the below line to highlight the material when gaze enters.
-
+                defaultMaterials[i].EnableKeyword("_ENVIRONMENT_COLORING");
             }
         }
 
@@ -69,7 +69,7 @@ namespace Academy
             for (int i = 0; i < defaultMaterials.Length; i++)
             {
                 // 2.d: Uncomment the below line to remove highlight on material when gaze exits.
-
+                defaultMaterials[i].DisableKeyword("_ENVIRONMENT_COLORING");
             }
         }
 

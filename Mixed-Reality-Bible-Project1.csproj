@@ -238,8 +238,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Holograms\Support\AstroMan\SetRendererSettings.cs" />
-    <Compile Include="Assets\Holograms\Support\Fitbox\Fitbox.cs" />
     <Compile Include="Assets\HoloToolkit\Boundary\Scripts\BoundaryManager.cs" />
     <Compile Include="Assets\HoloToolkit\Boundary\Scripts\SceneContentAdjuster.cs" />
     <Compile Include="Assets\HoloToolkit\Common\Scripts\CalibrationSpace.cs" />
@@ -409,6 +407,8 @@
     <Compile Include="Assets\HoloToolkit\SpatialMapping\Scripts\SpatialProcessing\SurfaceMeshesToPlanes.cs" />
     <Compile Include="Assets\HoloToolkit\SpatialMapping\Scripts\SpatialProcessing\SurfacePlane.cs" />
     <Compile Include="Assets\HoloToolkit\SpatialMapping\Scripts\TapToPlace.cs" />
+    <Compile Include="Assets\HoloToolkit\Support\AstroMan\SetRendererSettings.cs" />
+    <Compile Include="Assets\HoloToolkit\Support\Fitbox\Fitbox.cs" />
     <Compile Include="Assets\HoloToolkit\Utilities\Scripts\AdaptiveQuality\AdaptiveQuality.cs" />
     <Compile Include="Assets\HoloToolkit\Utilities\Scripts\AdaptiveQuality\AdaptiveViewport.cs" />
     <Compile Include="Assets\HoloToolkit\Utilities\Scripts\ApplicationViewManager.cs" />
