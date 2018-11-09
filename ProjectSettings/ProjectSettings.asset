@@ -649,9 +649,9 @@ PlayerSettings:
   cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 74b1d51b-224d-4a65-a5b3-6116b4197ee7
-  projectName: Bible Project (Solo)
-  organizationId: ryan-iskandar
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
