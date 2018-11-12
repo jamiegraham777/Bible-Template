@@ -7,7 +7,7 @@
 # Default behavior is to never overwrite files
 Bible Project (Solo).sln: modified
 Bible Project (Solo)\App.cs: 1A9D34204B06BA7E72318B4434AB4E58
-Bible Project (Solo)\Bible Project (Solo).csproj: D6D40BD22434645C05957C1FCD06EE09
+Bible Project (Solo)\Bible Project (Solo).csproj: C74EA0F3DB1C9AE031139B895863874C
 Bible Project (Solo)\Bible Project (Solo).csproj.user: modified
 Bible Project (Solo)\Package.appxmanifest: 9D327E66430319A113225C2A38037EA5
 Bible Project (Solo)\project.json: 1D02BC64BAC0D041019673A1C4C51737

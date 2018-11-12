@@ -15931,19 +15931,19 @@
     "UAP,Version=v10.0.10240": []
   },
   "packageFolders": {
-    "C:\\Users\\Charinee\\.nuget\\packages\\": {}
+    "C:\\Users\\Cothancael\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Charinee\\Documents\\GitHub\\Mixed-Reality-Bible-Project1\\App\\Bible Project (Solo)\\Bible Project (Solo).csproj",
+      "projectUniqueName": "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\Bible Project (Solo)\\Bible Project (Solo).csproj",
       "projectName": "Bible Project (Solo)",
-      "projectPath": "C:\\Users\\Charinee\\Documents\\GitHub\\Mixed-Reality-Bible-Project1\\App\\Bible Project (Solo)\\Bible Project (Solo).csproj",
-      "projectJsonPath": "C:\\Users\\Charinee\\Documents\\GitHub\\Mixed-Reality-Bible-Project1\\App\\Bible Project (Solo)\\project.json",
-      "packagesPath": "C:\\Users\\Charinee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Charinee\\Documents\\GitHub\\Mixed-Reality-Bible-Project1\\App\\Bible Project (Solo)\\obj\\",
+      "projectPath": "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\Bible Project (Solo)\\Bible Project (Solo).csproj",
+      "projectJsonPath": "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\Bible Project (Solo)\\project.json",
+      "packagesPath": "C:\\Users\\Cothancael\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\Bible Project (Solo)\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
-        "C:\\Users\\Charinee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cothancael\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {
@@ -15953,21 +15953,21 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "C:\\Users\\Charinee\\Documents\\GitHub\\Mixed-Reality-Bible-Project1\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj": {
-              "projectPath": "C:\\Users\\Charinee\\Documents\\GitHub\\Mixed-Reality-Bible-Project1\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj"
+            "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+              "projectPath": "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
             },
-            "C:\\Users\\Charinee\\Documents\\GitHub\\Mixed-Reality-Bible-Project1\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
-              "projectPath": "C:\\Users\\Charinee\\Documents\\GitHub\\Mixed-Reality-Bible-Project1\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
+            "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj": {
+              "projectPath": "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj"
             }
           }
         }
       }
     },
     "dependencies": {
-      "Microsoft.ApplicationInsights": "[1.0.0, )",
-      "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
-      "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
-      "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      "Microsoft.ApplicationInsights": "1.0.0",
+      "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
+      "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
+      "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
     },
     "frameworks": {
       "uap10.0.10240": {}
