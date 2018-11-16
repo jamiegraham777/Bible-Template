@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class langagestore : MonoBehaviour
 {
-    public void TaskOnClick()
+    void OnSelect()
     {
         if (language.lang == 0)
         {

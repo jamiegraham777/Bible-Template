@@ -42,8 +42,6 @@ public class button : MonoBehaviour {
             {
                 GetComponent<Image>().sprite = h1;
             }
-            //Image theImage = GameObject.Find("txtbox").GetComponent<Image>();
-            //theImage.sprite = one;​
         }
         if (counter.count == 2)
         {
@@ -54,6 +52,116 @@ public class button : MonoBehaviour {
             else
             {
                 GetComponent<Image>().sprite = h2;
+            }
+        }
+        if (counter.count == 3)
+        {
+            if (language.lang == 0)
+            {
+                GetComponent<Image>().sprite = e3;
+            }
+            else
+            {
+                GetComponent<Image>().sprite = h3;
+            }
+        }
+        if (counter.count == 4)
+        {
+            if (language.lang == 0)
+            {
+                GetComponent<Image>().sprite = e4;
+            }
+            else
+            {
+                GetComponent<Image>().sprite = h4;
+            }
+        }
+        if (counter.count == 5)
+        {
+            if (language.lang == 0)
+            {
+                GetComponent<Image>().sprite = e5;
+            }
+            else
+            {
+                GetComponent<Image>().sprite = h5;
+            }
+        }
+        if (counter.count == 6)
+        {
+            if (language.lang == 0)
+            {
+                GetComponent<Image>().sprite = e6;
+            }
+            else
+            {
+                GetComponent<Image>().sprite = h6;
+            }
+        }
+        if (counter.count == 7)
+        {
+            if (language.lang == 0)
+            {
+                GetComponent<Image>().sprite = e7;
+            }
+            else
+            {
+                GetComponent<Image>().sprite = h7;
+            }
+        }
+        if (counter.count == 8)
+        {
+            if (language.lang == 0)
+            {
+                GetComponent<Image>().sprite = e8;
+            }
+            else
+            {
+                GetComponent<Image>().sprite = h8;
+            }
+        }
+        if (counter.count == 9)
+        {
+            if (language.lang == 0)
+            {
+                GetComponent<Image>().sprite = e9;
+            }
+            else
+            {
+                GetComponent<Image>().sprite = h9;
+            }
+        }
+        if (counter.count == 10)
+        {
+            if (language.lang == 0)
+            {
+                GetComponent<Image>().sprite = e10;
+            }
+            else
+            {
+                GetComponent<Image>().sprite = h10;
+            }
+        }
+        if (counter.count == 11)
+        {
+            if (language.lang == 0)
+            {
+                GetComponent<Image>().sprite = e11;
+            }
+            else
+            {
+                GetComponent<Image>().sprite = h11;
+            }
+        }
+        if (counter.count == 12)
+        {
+            if (language.lang == 0)
+            {
+                GetComponent<Image>().sprite = e12;
+            }
+            else
+            {
+                GetComponent<Image>().sprite = h12;
             }
         }
     }

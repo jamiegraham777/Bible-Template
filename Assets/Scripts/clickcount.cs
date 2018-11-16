@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class clickcount : MonoBehaviour{
+public class clickcount : MonoBehaviour
+{
+    // Called by GazeGestureManager when the user performs a Select gesture
     public AudioSource e1;
     public AudioSource e2;
     public AudioSource e3;
@@ -28,7 +30,7 @@ public class clickcount : MonoBehaviour{
     public AudioSource h10;
     public AudioSource h11;
     public AudioSource h12;
-    public void TaskOnClick()
+    void OnSelect()
     {
         counter.count++;
         if (counter.count == 1)
@@ -44,6 +46,8 @@ public class clickcount : MonoBehaviour{
         }
         if (counter.count == 2)
         {
+            e1.Stop();
+            h1.Stop();
             if (language.lang == 0)
             {
 
@@ -56,6 +60,8 @@ public class clickcount : MonoBehaviour{
         }
         if (counter.count == 3)
         {
+            e2.Stop();
+            h2.Stop();
             if (language.lang == 0)
             {
 
@@ -68,6 +74,8 @@ public class clickcount : MonoBehaviour{
         }
         if (counter.count == 4)
         {
+            e3.Stop();
+            h3.Stop();
             if (language.lang == 0)
             {
 
@@ -80,6 +88,8 @@ public class clickcount : MonoBehaviour{
         }
         if (counter.count == 5)
         {
+            e4.Stop();
+            h4.Stop();
             if (language.lang == 0)
             {
 
@@ -92,6 +102,8 @@ public class clickcount : MonoBehaviour{
         }
         if (counter.count == 6)
         {
+            e5.Stop();
+            h5.Stop();
             if (language.lang == 0)
             {
 
@@ -104,6 +116,8 @@ public class clickcount : MonoBehaviour{
         }
         if (counter.count == 7)
         {
+            e6.Stop();
+            h6.Stop();
             if (language.lang == 0)
             {
 
@@ -116,6 +130,8 @@ public class clickcount : MonoBehaviour{
         }
         if (counter.count == 8)
         {
+            e7.Stop();
+            h7.Stop();
             if (language.lang == 0)
             {
 
@@ -128,6 +144,8 @@ public class clickcount : MonoBehaviour{
         }
         if (counter.count == 9)
         {
+            e8.Stop();
+            h8.Stop();
             if (language.lang == 0)
             {
 
@@ -140,6 +158,8 @@ public class clickcount : MonoBehaviour{
         }
         if (counter.count == 10)
         {
+            e9.Stop();
+            h9.Stop();
             if (language.lang == 0)
             {
 
@@ -152,6 +172,8 @@ public class clickcount : MonoBehaviour{
         }
         if (counter.count == 11)
         {
+            e10.Stop();
+            h10.Stop();
             if (language.lang == 0)
             {
 
@@ -164,6 +186,8 @@ public class clickcount : MonoBehaviour{
         }
         if (counter.count == 12)
         {
+            e11.Stop();
+            h11.Stop();
             if (language.lang == 0)
             {
 

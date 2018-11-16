@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{426e2e25-569e-4e50-b6b4-27b20126cd37}</ProjectGuid>
+    <ProjectGuid>{97302f20-a525-4a1b-80c1-3a82661fdb10}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\Cothancael\Documents\GitHub\Mixed-Reality-Bible-Project\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{150d725b-5974-4860-b094-4160d4d3be68}</Project>
+      <Project>{2037e6da-8d79-4afe-bea0-857f067ca402}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <Reference Include="UnityEngine.TextRenderingModule">
@@ -360,6 +360,9 @@
     <SDKReference Include="WindowsTeam, Version=10.0.17134.0"/>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="$(UnityProjectDir)Assets\billboard.cs">
+      <Link>billboard.cs</Link>
+    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\Boundary\Scripts\BoundaryManager.cs">
       <Link>HoloToolkit\Boundary\Scripts\BoundaryManager.cs</Link>
     </Compile>
@@ -1436,6 +1439,9 @@
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\DismissOnSelect.cs">
       <Link>Scripts\DismissOnSelect.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\GazeGestureManager.cs">
+      <Link>Scripts\GazeGestureManager.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\Interactible.cs">
       <Link>Scripts\Interactible.cs</Link>
