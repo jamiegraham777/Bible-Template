@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{97302f20-a525-4a1b-80c1-3a82661fdb10}</ProjectGuid>
+    <ProjectGuid>{56f0d6ff-3097-48f1-a761-5b2ce632f993}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\Cothancael\Documents\GitHub\Mixed-Reality-Bible-Project\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{2037e6da-8d79-4afe-bea0-857f067ca402}</Project>
+      <Project>{dd5eb056-4a8b-458a-9615-9e532b2e8158}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <Reference Include="UnityEngine.TextRenderingModule">
@@ -1454,6 +1454,12 @@
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\language.cs">
       <Link>Scripts\language.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\swapaction.cs">
+      <Link>Scripts\swapaction.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\swapcamera.cs">
+      <Link>Scripts\swapcamera.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\TagalongAction.cs">
       <Link>Scripts\TagalongAction.cs</Link>

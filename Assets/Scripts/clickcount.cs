@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class clickcount : MonoBehaviour
 {
-    // Called by GazeGestureManager when the user performs a Select gesture
     public AudioSource e1;
     public AudioSource e2;
     public AudioSource e3;

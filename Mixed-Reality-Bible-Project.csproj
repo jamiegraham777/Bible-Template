@@ -603,6 +603,8 @@
     <Compile Include="Assets\Scripts\InteractibleAction.cs" />
     <Compile Include="Assets\Scripts\langagestore.cs" />
     <Compile Include="Assets\Scripts\language.cs" />
+    <Compile Include="Assets\Scripts\swapaction.cs" />
+    <Compile Include="Assets\Scripts\swapcamera.cs" />
     <Compile Include="Assets\Scripts\TagalongAction.cs" />
   </ItemGroup>
   <ItemGroup>
