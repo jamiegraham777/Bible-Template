@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mixed-Reality-Bible-Project", "Mixed-Reality-Bible-Project.csproj", "{4BC3C13E-77EF-BED6-C305-43779A2BE524}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mixed-Reality-Bible-Project.Plugins", "Mixed-Reality-Bible-Project.Plugins.csproj", "{6A1B295B-ADC2-B943-C084-8DB4A698F378}"

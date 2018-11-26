@@ -1917,27 +1917,6 @@
             "rid": "win8-aot"
           }
         }
-      },
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Assembly-CSharp-firstpass": "1.0.0",
-          "Microsoft.ApplicationInsights": "1.0.0",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
-      },
-      "Assembly-CSharp-firstpass/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "1.0.0",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
       }
     },
     "UAP,Version=v10.0.10240/win10-arm": {
@@ -3713,27 +3692,6 @@
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
-      },
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Assembly-CSharp-firstpass": "1.0.0",
-          "Microsoft.ApplicationInsights": "1.0.0",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
-      },
-      "Assembly-CSharp-firstpass/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "1.0.0",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
       }
     },
     "UAP,Version=v10.0.10240/win10-arm-aot": {
@@ -5471,27 +5429,6 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
-        }
-      },
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Assembly-CSharp-firstpass": "1.0.0",
-          "Microsoft.ApplicationInsights": "1.0.0",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
-      },
-      "Assembly-CSharp-firstpass/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "1.0.0",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
     },
@@ -7275,27 +7212,6 @@
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
-      },
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Assembly-CSharp-firstpass": "1.0.0",
-          "Microsoft.ApplicationInsights": "1.0.0",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
-      },
-      "Assembly-CSharp-firstpass/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "1.0.0",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
       }
     },
     "UAP,Version=v10.0.10240/win10-x64-aot": {
@@ -9033,27 +8949,6 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
-        }
-      },
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Assembly-CSharp-firstpass": "1.0.0",
-          "Microsoft.ApplicationInsights": "1.0.0",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
-      },
-      "Assembly-CSharp-firstpass/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "1.0.0",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
     },
@@ -10837,27 +10732,6 @@
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
-      },
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Assembly-CSharp-firstpass": "1.0.0",
-          "Microsoft.ApplicationInsights": "1.0.0",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
-      },
-      "Assembly-CSharp-firstpass/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "1.0.0",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
       }
     },
     "UAP,Version=v10.0.10240/win10-x86-aot": {
@@ -12595,27 +12469,6 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
-        }
-      },
-      "Assembly-CSharp/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Assembly-CSharp-firstpass": "1.0.0",
-          "Microsoft.ApplicationInsights": "1.0.0",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
-        }
-      },
-      "Assembly-CSharp-firstpass/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10240",
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "1.0.0",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-          "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
         }
       }
     }
@@ -15909,16 +15762,6 @@
         "system.xml.xmlserializer.4.0.10.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
-    },
-    "Assembly-CSharp/1.0.0": {
-      "type": "project",
-      "path": "../GeneratedProjects/UWP/Assembly-CSharp/project.json",
-      "msbuildProject": "../GeneratedProjects/UWP/Assembly-CSharp/Assembly-CSharp.csproj"
-    },
-    "Assembly-CSharp-firstpass/1.0.0": {
-      "type": "project",
-      "path": "../GeneratedProjects/UWP/Assembly-CSharp-firstpass/project.json",
-      "msbuildProject": "../GeneratedProjects/UWP/Assembly-CSharp-firstpass/Assembly-CSharp-firstpass.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -15931,43 +15774,31 @@
     "UAP,Version=v10.0.10240": []
   },
   "packageFolders": {
-    "C:\\Users\\Cothancael\\.nuget\\packages\\": {}
+    "C:\\Users\\Ryan Iskandar\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\Bible Project (Solo)\\Bible Project (Solo).csproj",
+      "projectUniqueName": "C:\\Users\\Ryan Iskandar\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\Bible Project (Solo)\\Bible Project (Solo).csproj",
       "projectName": "Bible Project (Solo)",
-      "projectPath": "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\Bible Project (Solo)\\Bible Project (Solo).csproj",
-      "projectJsonPath": "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\Bible Project (Solo)\\project.json",
-      "packagesPath": "C:\\Users\\Cothancael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\Bible Project (Solo)\\obj\\",
+      "projectPath": "C:\\Users\\Ryan Iskandar\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\Bible Project (Solo)\\Bible Project (Solo).csproj",
+      "projectJsonPath": "C:\\Users\\Ryan Iskandar\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\Bible Project (Solo)\\project.json",
+      "packagesPath": "C:\\Users\\Ryan Iskandar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ryan Iskandar\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\Bible Project (Solo)\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
-        "C:\\Users\\Cothancael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ryan Iskandar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
-      },
-      "frameworks": {
-        "uap10.0.10240": {
-          "projectReferences": {
-            "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
-              "projectPath": "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
-            },
-            "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj": {
-              "projectPath": "C:\\Users\\Cothancael\\Documents\\GitHub\\Mixed-Reality-Bible-Project\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj"
-            }
-          }
-        }
       }
     },
     "dependencies": {
-      "Microsoft.ApplicationInsights": "1.0.0",
-      "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
-      "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-      "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+      "Microsoft.ApplicationInsights": "[1.0.0, )",
+      "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+      "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+      "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
     },
     "frameworks": {
       "uap10.0.10240": {}

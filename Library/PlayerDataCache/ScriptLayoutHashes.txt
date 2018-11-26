@@ -1,6 +1,6 @@
 Metro
 PlayerPath?
-C:/Users/Cothancael/Documents/GitHub/Mixed-Reality-Bible-Project/App
+C:/Users/Ryan Iskandar/Documents/GitHub/Mixed-Reality-Bible-Project/App
 SceneListBegin?
 Assets/Desert Scene.unity
 SceneListEnd?
