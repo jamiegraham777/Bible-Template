@@ -1,6 +1,7 @@
 C:\Users\Cothancael\Documents\GitHub\Mixed-Reality-Bible-Project\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.dll
 C:\Users\Cothancael\Documents\GitHub\Mixed-Reality-Bible-Project\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pdb
 C:\Users\Cothancael\Documents\GitHub\Mixed-Reality-Bible-Project\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pri
+C:\Users\Cothancael\Documents\GitHub\Mixed-Reality-Bible-Project\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
 C:\Users\Cothancael\Documents\GitHub\Mixed-Reality-Bible-Project\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
 C:\Users\Cothancael\Documents\GitHub\Mixed-Reality-Bible-Project\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.dll
 C:\Users\Cothancael\Documents\GitHub\Mixed-Reality-Bible-Project\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.pdb
