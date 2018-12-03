@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -6,6 +7,7 @@ public class ScriptedMovement : MonoBehaviour
 {
 	private GameObject guy;
 
+	public bool spot1arrived = false;
 
 	public float moveSpeed = 2.0f;
 
@@ -26,14 +28,23 @@ public class ScriptedMovement : MonoBehaviour
 	void Update()
 	{
 		dist = Vector3.Distance (guy.transform.position, transform.position);
-		if (dist > 5) {
-			anim.SetInteger ("Condition", 1);
-			transform.LookAt (guy.transform);
-
-			transform.position = Vector3.MoveTowards (transform.position, guy.transform.position, moveSpeed * Time.deltaTime);
-		} 
-		else {
+		while (counter.count == 1) {
 			anim.SetInteger ("Condition", 0);
+			if (dist > 10) {
+				anim.SetInteger ("Condition", 1);
+				transform.LookAt (guy.transform);
+				transform.position = Vector3.MoveTowards (transform.position, guy.transform.position, moveSpeed * Time.deltaTime);
+
+			} 
+			else {
+				anim.SetInteger ("Condition", 3);
+			}
 		}
+		while (counter.count == 2) {
+			
+		}
+
+
+		
 	}
 }
