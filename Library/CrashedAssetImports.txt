@@ -1,1 +1,0 @@
-Assets/HoloToolkit/UX/Models/Cursor/Cursor_scale/Cursor_Size_NortheastSouthwest.fbx
