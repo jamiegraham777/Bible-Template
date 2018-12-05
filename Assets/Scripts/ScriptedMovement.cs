@@ -8,6 +8,9 @@ public class ScriptedMovement : MonoBehaviour
 	private GameObject guy;
 	private GameObject guy2;
 
+	public bool isdone = false;
+	public bool isdone2 = true;
+
 	public bool spot1arrived = false;
 
 	public float moveSpeed = 2.0f;
@@ -34,8 +37,9 @@ public class ScriptedMovement : MonoBehaviour
 
 	void Update()
 	{
+		anim.SetInteger ("Condition", 0);
 		dist = Vector3.Distance (guy.transform.position, transform.position);
-		while (counter.count == 1) {
+		if (counter.count == 1) {
 			//anim.SetInteger ("Condition", 0);
 			if (dist > 10) {
 				anim.SetInteger ("Condition", 1);
@@ -45,10 +49,12 @@ public class ScriptedMovement : MonoBehaviour
 			} 
 			else {
 				anim.SetInteger ("Condition", 3);
+				isdone = true;
+				isdone2 = false;
 			}
 		}
 		dist2 = Vector3.Distance (guy.transform.position, transform.position);
-		while (counter.count == 2) {
+		if (counter.count == 2) {
 			if (dist2 > 10) {
 				transform.LookAt (guy2.transform);
 				anim.SetInteger ("Condition", 1);
@@ -57,10 +63,8 @@ public class ScriptedMovement : MonoBehaviour
 			} 
 			else {
 				anim.SetInteger ("Condition", 0);
+				isdone = true;
 			}
 		}
-
-
-		
 	}
 }
