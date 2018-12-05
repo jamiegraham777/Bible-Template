@@ -1,1 +1,1 @@
-Assets/Holograms/AstroMan.prefab
+Assets/Resources/Sounds/armysound.wav
