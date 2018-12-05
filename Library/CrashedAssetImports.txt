@@ -1,1 +1,1 @@
-Assets/Resources/Models/AstroMan/Materials/material_highlight3.mat
+Assets/Resources/Models/AstroMan/Materials/astroMan_head_mtl.mat
