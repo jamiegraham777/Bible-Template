@@ -1,1 +1,1 @@
-Assets/Standard Assets/Characters/RollerBall/Models/RollerBall.fbx
+Assets/HoloToolkit/UX/Models/Cursor/Cursor_scale/Cursor_Size_NortheastSouthwest.fbx
