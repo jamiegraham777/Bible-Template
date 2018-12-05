@@ -1,1 +1,1 @@
-Assets/Standard Assets/2D/Sprites/RobotBoyCrouchSprite.png
+Assets/Standard Assets/Environment/Water (Basic)/Shaders/FXWaterBasic.shader
