@@ -424,6 +424,7 @@
      <Compile Include="Assets\Scripts\language.cs" />
      <Compile Include="Assets\Scripts\maincam.cs" />
      <Compile Include="Assets\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\Scripts\PebbleThrower.cs" />
      <Compile Include="Assets\Scripts\ResizePanel.cs" />
      <Compile Include="Assets\Scripts\ScriptedMovement.cs" />
      <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />

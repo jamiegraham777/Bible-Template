@@ -7,9 +7,7 @@ public class ScriptedMovement : MonoBehaviour
 {
 	private GameObject guy;
 	private GameObject guy2;
-
-	public bool isdone = false;
-	public bool isdone2 = true;
+	private GameObject guy3;
 
 	public bool spot1arrived = false;
 
@@ -17,6 +15,7 @@ public class ScriptedMovement : MonoBehaviour
 
 	private float dist;
 	private float dist2;
+	private float dist3;
 	CharacterController controller;
 	Animator anim;
 
@@ -29,6 +28,7 @@ public class ScriptedMovement : MonoBehaviour
 	void Awake(){
 		guy = GameObject.Find ("move1");
 		guy2 = GameObject.Find ("move2");
+		guy3 = GameObject.Find ("move3");
 	}
 
 	public IEnumerator DoTheDance() {
@@ -49,11 +49,9 @@ public class ScriptedMovement : MonoBehaviour
 			} 
 			else {
 				anim.SetInteger ("Condition", 3);
-				isdone = true;
-				isdone2 = false;
 			}
 		}
-		dist2 = Vector3.Distance (guy.transform.position, transform.position);
+		dist2 = Vector3.Distance (guy2.transform.position, transform.position);
 		if (counter.count == 2) {
 			if (dist2 > 10) {
 				transform.LookAt (guy2.transform);
@@ -63,7 +61,13 @@ public class ScriptedMovement : MonoBehaviour
 			} 
 			else {
 				anim.SetInteger ("Condition", 0);
-				isdone = true;
+			}
+		}
+		dist3 = Vector3.Distance (guy3.transform.position, transform.position);
+		if (counter.count == 3) {
+			if (dist3 < 10) {
+				transform.LookAt (guy3.transform);
+				anim.SetInteger ("Condition", 4);
 			}
 		}
 	}
