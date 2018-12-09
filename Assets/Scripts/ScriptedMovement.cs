@@ -64,7 +64,7 @@ public class ScriptedMovement : MonoBehaviour
 			}
 		}
 		dist3 = Vector3.Distance (guy3.transform.position, transform.position);
-		if (counter.count == 3) {
+		if (counter.count == 9) {
 			if (dist3 < 10) {
 				transform.LookAt (guy3.transform);
 				anim.SetInteger ("Condition", 4);

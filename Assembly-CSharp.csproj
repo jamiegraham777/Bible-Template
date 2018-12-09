@@ -51,6 +51,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Army Animations\Animations\DavidArmyCharge.cs" />
+     <Compile Include="Assets\Army Animations\Animations\DavidIdle1.cs" />
+     <Compile Include="Assets\Army Animations\Animations\DavidIdle2.cs" />
+     <Compile Include="Assets\Army Animations\Animations\DavidIdle3.cs" />
+     <Compile Include="Assets\Army Animations\Animations\DavidIdle4.cs" />
+     <Compile Include="Assets\Army Animations\Animations\DavidIdle5.cs" />
+     <Compile Include="Assets\Army Animations\Animations\GoliathIdle1.cs" />
+     <Compile Include="Assets\Army Animations\Animations\GoliathIdle2.cs" />
+     <Compile Include="Assets\Army Animations\Animations\GoliathIdle3.cs" />
+     <Compile Include="Assets\Army Animations\Animations\GoliathIdle4.cs" />
+     <Compile Include="Assets\Army Animations\Animations\GoliathIdle5.cs" />
      <Compile Include="Assets\Holograms\Support\AstroMan\SetRendererSettings.cs" />
      <Compile Include="Assets\Holograms\Support\Fitbox\Fitbox.cs" />
      <Compile Include="Assets\HoloToolkit\Boundary\Scripts\BoundaryManager.cs" />
@@ -418,8 +429,23 @@
      <Compile Include="Assets\Scripts\DragPanel.cs" />
      <Compile Include="Assets\Scripts\DropMe.cs" />
      <Compile Include="Assets\Scripts\GazeGestureManager.cs" />
+     <Compile Include="Assets\Scripts\helptoggle.cs" />
+     <Compile Include="Assets\Scripts\helpupdate.cs" />
+     <Compile Include="Assets\Scripts\intd1.cs" />
+     <Compile Include="Assets\Scripts\intd2.cs" />
+     <Compile Include="Assets\Scripts\intd3.cs" />
+     <Compile Include="Assets\Scripts\intd4.cs" />
+     <Compile Include="Assets\Scripts\intd5.cs" />
      <Compile Include="Assets\Scripts\Interactible.cs" />
      <Compile Include="Assets\Scripts\InteractibleAction.cs" />
+     <Compile Include="Assets\Scripts\intg1.cs" />
+     <Compile Include="Assets\Scripts\intg2.cs" />
+     <Compile Include="Assets\Scripts\intg3.cs" />
+     <Compile Include="Assets\Scripts\intg4.cs" />
+     <Compile Include="Assets\Scripts\intg5.cs" />
+     <Compile Include="Assets\Scripts\intmarkd.cs" />
+     <Compile Include="Assets\Scripts\intmarkg.cs" />
+     <Compile Include="Assets\Scripts\inttxt.cs" />
      <Compile Include="Assets\Scripts\langagestore.cs" />
      <Compile Include="Assets\Scripts\language.cs" />
      <Compile Include="Assets\Scripts\maincam.cs" />
