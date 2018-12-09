@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class swapaction : MonoBehaviour
 {
-    void OnSelect()
+    public void OnSelect()
     {
         swapcamera.dcam.enabled = !swapcamera.dcam.enabled;
         swapcamera.gcam.enabled = !swapcamera.gcam.enabled;

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class helptoggle : MonoBehaviour
 {
-    void OnSelect()
+    public void OnSelect()
     {
         if (counter.help == 1) {
             counter.help = 0;

@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class intmarkg : MonoBehaviour
 {
-    public Sprite moff;
-    public Sprite mon;
+    public Sprite moff1;
+    public Sprite mon1;
 
     void Update()
     {
@@ -14,16 +14,16 @@ public class intmarkg : MonoBehaviour
         {
             if (counter.count == 12)
             {
-                GetComponent<Image>().sprite = moff;
+                GetComponent<Image>().sprite = moff1;
             }
             else
             {
-                GetComponent<Image>().sprite = mon;
+                GetComponent<Image>().sprite = mon1;
             }
         }
         else
         {
-            GetComponent<Image>().sprite = moff;
+            GetComponent<Image>().sprite = moff1;
         }
     }
 }

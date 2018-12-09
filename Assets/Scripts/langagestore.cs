@@ -16,4 +16,12 @@ public class langagestore : MonoBehaviour
             language.lang = 0;
         }
     }
+	public void Hebrew()
+	{
+		language.lang = 1;
+	}
+	public void English()
+	{
+		language.lang = 0;
+	}
 }

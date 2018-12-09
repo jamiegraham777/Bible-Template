@@ -29,7 +29,7 @@ public class clickcount : MonoBehaviour
     public AudioSource h10;
     public AudioSource h11;
     public AudioSource h12;
-    void OnSelect()
+    public void OnSelect()
     {
         counter.count++;
         if (counter.count == 1)
