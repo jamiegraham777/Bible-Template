@@ -356,12 +356,12 @@
 
   <ItemGroup>
     <ProjectReference Include="C:\Users\Cothancael\Documents\GitHub\Mixed-Reality-Bible-Project\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{7986114b-8cb1-422f-9104-4c61b440282c}</Project>
+      <Project>{81d7ba1a-79bf-4466-b197-7b888b17c9eb}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="C:\Users\Cothancael\Documents\GitHub\Mixed-Reality-Bible-Project\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{f613138e-d37d-4443-9f9a-29c4baa8eac7}</Project>
+      <Project>{7f87f4ee-f9a8-4897-aebf-20adcfb2f09e}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
       <Private>False</Private>
     </ProjectReference>

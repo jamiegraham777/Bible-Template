@@ -7,11 +7,11 @@
     <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
     <UseEmulator>true</UseEmulator>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Master|ARM'">
     <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
     <UseEmulator>true</UseEmulator>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Master|x64'">
     <DeviceId>4CE3B45E-0530-04A7-0B7F-F404E7D5D220</DeviceId>
     <UseEmulator>true</UseEmulator>
   </PropertyGroup>

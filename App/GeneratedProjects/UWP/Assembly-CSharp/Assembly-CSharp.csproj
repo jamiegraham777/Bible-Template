@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7986114b-8cb1-422f-9104-4c61b440282c}</ProjectGuid>
+    <ProjectGuid>{81d7ba1a-79bf-4466-b197-7b888b17c9eb}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\Cothancael\Documents\GitHub\Mixed-Reality-Bible-Project\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{f613138e-d37d-4443-9f9a-29c4baa8eac7}</Project>
+      <Project>{7f87f4ee-f9a8-4897-aebf-20adcfb2f09e}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <Reference Include="UnityEngine.TextRenderingModule">
@@ -360,8 +360,44 @@
     <SDKReference Include="WindowsTeam, Version=10.0.17134.0"/>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="$(UnityProjectDir)Assets\billboard.cs">
-      <Link>billboard.cs</Link>
+    <Compile Include="$(UnityProjectDir)Assets\Army Animations\Animations\DavidArmyCharge.cs">
+      <Link>Army Animations\Animations\DavidArmyCharge.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Army Animations\Animations\DavidIdle1.cs">
+      <Link>Army Animations\Animations\DavidIdle1.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Army Animations\Animations\DavidIdle2.cs">
+      <Link>Army Animations\Animations\DavidIdle2.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Army Animations\Animations\DavidIdle3.cs">
+      <Link>Army Animations\Animations\DavidIdle3.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Army Animations\Animations\DavidIdle4.cs">
+      <Link>Army Animations\Animations\DavidIdle4.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Army Animations\Animations\DavidIdle5.cs">
+      <Link>Army Animations\Animations\DavidIdle5.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Army Animations\Animations\GoliathIdle1.cs">
+      <Link>Army Animations\Animations\GoliathIdle1.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Army Animations\Animations\GoliathIdle2.cs">
+      <Link>Army Animations\Animations\GoliathIdle2.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Army Animations\Animations\GoliathIdle3.cs">
+      <Link>Army Animations\Animations\GoliathIdle3.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Army Animations\Animations\GoliathIdle4.cs">
+      <Link>Army Animations\Animations\GoliathIdle4.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Army Animations\Animations\GoliathIdle5.cs">
+      <Link>Army Animations\Animations\GoliathIdle5.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Holograms\Support\AstroMan\SetRendererSettings.cs">
+      <Link>Holograms\Support\AstroMan\SetRendererSettings.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Holograms\Support\Fitbox\Fitbox.cs">
+      <Link>Holograms\Support\Fitbox\Fitbox.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\Boundary\Scripts\BoundaryManager.cs">
       <Link>HoloToolkit\Boundary\Scripts\BoundaryManager.cs</Link>
@@ -869,12 +905,6 @@
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\SpatialMapping\Scripts\TapToPlace.cs">
       <Link>HoloToolkit\SpatialMapping\Scripts\TapToPlace.cs</Link>
-    </Compile>
-    <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\Support\AstroMan\SetRendererSettings.cs">
-      <Link>HoloToolkit\Support\AstroMan\SetRendererSettings.cs</Link>
-    </Compile>
-    <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\Support\Fitbox\Fitbox.cs">
-      <Link>HoloToolkit\Support\Fitbox\Fitbox.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\Utilities\Scripts\AdaptiveQuality\AdaptiveQuality.cs">
       <Link>HoloToolkit\Utilities\Scripts\AdaptiveQuality\AdaptiveQuality.cs</Link>
@@ -1428,8 +1458,20 @@
     <Compile Include="$(UnityProjectDir)Assets\SampleScenes\Scripts\SlowMoButton.cs">
       <Link>SampleScenes\Scripts\SlowMoButton.cs</Link>
     </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\ActiveStateToggler.cs">
+      <Link>Scripts\ActiveStateToggler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\ApplicationManager.cs">
+      <Link>Scripts\ApplicationManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\billboard.cs">
+      <Link>Scripts\billboard.cs</Link>
+    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\button.cs">
       <Link>Scripts\button.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\ChangeColor.cs">
+      <Link>Scripts\ChangeColor.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\clickcount.cs">
       <Link>Scripts\clickcount.cs</Link>
@@ -1440,14 +1482,68 @@
     <Compile Include="$(UnityProjectDir)Assets\Scripts\DismissOnSelect.cs">
       <Link>Scripts\DismissOnSelect.cs</Link>
     </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\DragMe.cs">
+      <Link>Scripts\DragMe.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\DragPanel.cs">
+      <Link>Scripts\DragPanel.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\DropMe.cs">
+      <Link>Scripts\DropMe.cs</Link>
+    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\GazeGestureManager.cs">
       <Link>Scripts\GazeGestureManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\helptoggle.cs">
+      <Link>Scripts\helptoggle.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\helpupdate.cs">
+      <Link>Scripts\helpupdate.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\intd1.cs">
+      <Link>Scripts\intd1.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\intd2.cs">
+      <Link>Scripts\intd2.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\intd3.cs">
+      <Link>Scripts\intd3.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\intd4.cs">
+      <Link>Scripts\intd4.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\intd5.cs">
+      <Link>Scripts\intd5.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\Interactible.cs">
       <Link>Scripts\Interactible.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\InteractibleAction.cs">
       <Link>Scripts\InteractibleAction.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\intg1.cs">
+      <Link>Scripts\intg1.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\intg2.cs">
+      <Link>Scripts\intg2.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\intg3.cs">
+      <Link>Scripts\intg3.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\intg4.cs">
+      <Link>Scripts\intg4.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\intg5.cs">
+      <Link>Scripts\intg5.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\intmarkd.cs">
+      <Link>Scripts\intmarkd.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\intmarkg.cs">
+      <Link>Scripts\intmarkg.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\inttxt.cs">
+      <Link>Scripts\inttxt.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\langagestore.cs">
       <Link>Scripts\langagestore.cs</Link>
@@ -1458,6 +1554,24 @@
     <Compile Include="$(UnityProjectDir)Assets\Scripts\maincam.cs">
       <Link>Scripts\maincam.cs</Link>
     </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\PanelManager.cs">
+      <Link>Scripts\PanelManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\PebbleThrower.cs">
+      <Link>Scripts\PebbleThrower.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\ResizePanel.cs">
+      <Link>Scripts\ResizePanel.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\ScriptedMovement.cs">
+      <Link>Scripts\ScriptedMovement.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\ScrollDetailTexture.cs">
+      <Link>Scripts\ScrollDetailTexture.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\ShowSliderValue.cs">
+      <Link>Scripts\ShowSliderValue.cs</Link>
+    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\swapaction.cs">
       <Link>Scripts\swapaction.cs</Link>
     </Compile>
@@ -1466,6 +1580,9 @@
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\TagalongAction.cs">
       <Link>Scripts\TagalongAction.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\TiltWindow.cs">
+      <Link>Scripts\TiltWindow.cs</Link>
     </Compile>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
