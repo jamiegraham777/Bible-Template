@@ -53,6 +53,7 @@ public class ScriptedMovement : MonoBehaviour
 				anim.SetInteger ("Condition", 3);
 			}
 		}
+		anim.SetInteger ("Condition", 0);
 		dist2 = Vector3.Distance (guy2.transform.position, transform.position);
 		if (counter.count == 2) {
 			if (dist2 > 10) {
