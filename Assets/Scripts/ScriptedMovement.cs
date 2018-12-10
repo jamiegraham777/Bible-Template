@@ -8,6 +8,7 @@ public class ScriptedMovement : MonoBehaviour
 	private GameObject guy;
 	private GameObject guy2;
 	private GameObject guy3;
+	private GameObject goliathlocation;
 
 	public bool spot1arrived = false;
 
@@ -29,6 +30,7 @@ public class ScriptedMovement : MonoBehaviour
 		guy = GameObject.Find ("move1");
 		guy2 = GameObject.Find ("move2");
 		guy3 = GameObject.Find ("move3");
+		goliathlocation = GameObject.Find ("Gmove2");
 	}
 
 	public IEnumerator DoTheDance() {
@@ -66,7 +68,7 @@ public class ScriptedMovement : MonoBehaviour
 		dist3 = Vector3.Distance (guy3.transform.position, transform.position);
 		if (counter.count == 9) {
 			if (dist3 < 10) {
-				transform.LookAt (guy3.transform);
+				transform.LookAt (goliathlocation.transform);
 				anim.SetInteger ("Condition", 4);
 			}
 		}
