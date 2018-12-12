@@ -5,7 +5,7 @@ using UnityEngine;
 public class intd2 : MonoBehaviour {
     void OnSelect()
     {
-        if (counter.count == 10)
+        if (counter.count >= 10)
         {
             counter.inter = 4;
         }

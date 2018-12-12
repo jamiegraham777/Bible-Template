@@ -8,3 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Desert Scene.unity
     guid: 9fcd813fb7fda92438db391398e6045d
+  - enabled: 1
+    path: Assets/Main.unity
+    guid: ea4ddc00b512f1f4dbbe935ffc3c9f06

@@ -37,7 +37,7 @@ public class GoliathMovement : MonoBehaviour
 
 	void Update()
 	{
-		anim.SetInteger ("Condition", 0);
+		//anim.SetInteger ("Condition", 0);
 		dist = Vector3.Distance (guy.transform.position, transform.position);
 		if (counter.count == 1) {
 			//anim.SetInteger ("Condition", 0);
@@ -67,7 +67,7 @@ public class GoliathMovement : MonoBehaviour
 		if (counter.count == 9) {
 			if (dist3 < 10) {
 				transform.LookAt (davidlocation.transform);
-				anim.SetInteger ("Condition", 0);
+				anim.SetInteger ("Condition", 1);//we did something
 			}
 		}
 	}

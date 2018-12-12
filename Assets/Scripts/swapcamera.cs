@@ -13,4 +13,12 @@ public class swapcamera : MonoBehaviour {
         dcam.enabled = true;
         gcam.enabled = false;
 	}
+    private void Update()
+    {
+        if (counter.count == 13)
+        {
+            dcam.enabled = false;
+            gcam.enabled = false;
+        }
+    }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class clickcount : MonoBehaviour
 {
@@ -196,6 +197,10 @@ public class clickcount : MonoBehaviour
             {
                 h12.Play();
             }
+        }
+        if (counter.count > 12)
+        {
+            SceneManager.LoadScene("Main");
         }
     }
 }

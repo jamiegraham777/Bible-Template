@@ -6,7 +6,7 @@ public class intg1 : MonoBehaviour
 {
     void OnSelect()
     {
-        if (counter.count == 10)
+        if (counter.count >= 10)
         {
             counter.inter = 12;
         }

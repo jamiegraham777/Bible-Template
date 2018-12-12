@@ -1,0 +1,9 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityWSASolutionName>Bible Project (Solo)</UnityWSASolutionName>
+        <UnityWSASolutionDir>C:\Users\Charinee\Documents\GitHub\Mixed-Reality-Bible-Project\App\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\Users\Charinee\Documents\GitHub\Mixed-Reality-Bible-Project\</UnityProjectDir>
+        <UnityWSAPlayerDir>C:\Program Files\unity2017\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+    </PropertyGroup>
+</Project>

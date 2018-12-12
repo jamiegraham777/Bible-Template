@@ -20,11 +20,12 @@ public class ScriptedMovement : MonoBehaviour
 	CharacterController controller;
 	Animator anim;
 
-	void Start()
+    void Start()
 	{
 		controller = GetComponent<CharacterController>();
 		anim = GetComponent<Animator> ();
-	}
+        
+    }
 
 	void Awake(){
 		guy = GameObject.Find ("move1");
@@ -39,10 +40,10 @@ public class ScriptedMovement : MonoBehaviour
 
 	void Update()
 	{
-		anim.SetInteger ("Condition", 0);
+		//anim.SetInteger ("Condition", 0);
 		dist = Vector3.Distance (guy.transform.position, transform.position);
 		if (counter.count == 1) {
-			//anim.SetInteger ("Condition", 0);
+			anim.SetInteger ("Condition", 0);
 			if (dist > 10) {
 				anim.SetInteger ("Condition", 1);
 				transform.LookAt (guy.transform);
@@ -53,25 +54,29 @@ public class ScriptedMovement : MonoBehaviour
 				anim.SetInteger ("Condition", 3);
 			}
 		}
-		anim.SetInteger ("Condition", 0);
+		//anim.SetInteger ("Condition", 0);
 		dist2 = Vector3.Distance (guy2.transform.position, transform.position);
 		if (counter.count == 2) {
-			if (dist2 > 10) {
-				transform.LookAt (guy2.transform);
-				anim.SetInteger ("Condition", 1);
-				transform.position = Vector3.MoveTowards (transform.position, guy2.transform.position, moveSpeed * Time.deltaTime);
-
-			} 
-			else {
-				anim.SetInteger ("Condition", 0);
-			}
-		}
+            if (dist2 > 10)
+            {
+                transform.LookAt(guy2.transform);
+                anim.SetInteger("Condition", 1);
+                transform.position = Vector3.MoveTowards(transform.position, guy2.transform.position, moveSpeed * Time.deltaTime);
+            }
+            else
+            {
+                anim.SetInteger("Condition", 0);
+            }
+        }
 		dist3 = Vector3.Distance (guy3.transform.position, transform.position);
-		if (counter.count == 9) {
-			if (dist3 < 10) {
-				transform.LookAt (goliathlocation.transform);
-				anim.SetInteger ("Condition", 4);
-			}
-		}
+        if (counter.count == 9)
+        {
+                //if (dist3 < 10)
+                //{
+                transform.LookAt(goliathlocation.transform);
+                anim.SetInteger("Condition", 4);
+                //}
+            
+        }
 	}
 }

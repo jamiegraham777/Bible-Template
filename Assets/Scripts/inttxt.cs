@@ -110,140 +110,140 @@ public class inttxt : MonoBehaviour {
     IEnumerator do1()
     {
         GetComponent<Image>().sprite = d1;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do2()
     {
         GetComponent<Image>().sprite = d2;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do3()
     {
         GetComponent<Image>().sprite = d3;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do4()
     {
         GetComponent<Image>().sprite = d4;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do5()
     {
         GetComponent<Image>().sprite = d5;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do6()
     {
         GetComponent<Image>().sprite = d6;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do7()
     {
         GetComponent<Image>().sprite = d7;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do8()
     {
         GetComponent<Image>().sprite = d8;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do9()
     {
         GetComponent<Image>().sprite = d9;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do10()
     {
         GetComponent<Image>().sprite = d10;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do11()
     {
         GetComponent<Image>().sprite = g11;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do12()
     {
         GetComponent<Image>().sprite = g12;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do13()
     {
         GetComponent<Image>().sprite = g13;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do14()
     {
         GetComponent<Image>().sprite = g14;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do15()
     {
         GetComponent<Image>().sprite = g15;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do16()
     {
         GetComponent<Image>().sprite = g16;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do17()
     {
         GetComponent<Image>().sprite = g17;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do18()
     {
         GetComponent<Image>().sprite = g18;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do19()
     {
         GetComponent<Image>().sprite = g19;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
     IEnumerator do20()
     {
         GetComponent<Image>().sprite = g20;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         GetComponent<Image>().sprite = blnk;
         counter.inter = 0;
     }
