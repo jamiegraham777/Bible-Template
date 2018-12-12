@@ -49,8 +49,11 @@ public class EndingFadeToBlack : MonoBehaviour {
     #region HELPERS
     public IEnumerator FadeAndLoadScene(FadeDirection fadeDirection, string sceneToLoad)
     {
-        yield return Fade(fadeDirection);
-        SceneManager.LoadScene("Main");
+        if (counter.count == 13)
+        {
+            yield return Fade(fadeDirection);
+            SceneManager.LoadScene("Main");
+        }
     }
     private void SetColorImage(ref float alpha, FadeDirection fadeDirection)
     {
