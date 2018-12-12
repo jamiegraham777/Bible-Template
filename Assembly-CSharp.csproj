@@ -459,6 +459,7 @@
      <Compile Include="Assets\Scripts\swapaction.cs" />
      <Compile Include="Assets\Scripts\swapcamera.cs" />
      <Compile Include="Assets\Scripts\TagalongAction.cs" />
+     <Compile Include="Assets\Scripts\ThrowSimulation.cs" />
      <Compile Include="Assets\Scripts\TiltWindow.cs" />
      <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFConstant.cginc" />
      <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
