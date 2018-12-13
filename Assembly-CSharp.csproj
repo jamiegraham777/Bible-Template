@@ -62,6 +62,7 @@
      <Compile Include="Assets\Army Animations\Animations\GoliathIdle3.cs" />
      <Compile Include="Assets\Army Animations\Animations\GoliathIdle4.cs" />
      <Compile Include="Assets\Army Animations\Animations\GoliathIdle5.cs" />
+     <Compile Include="Assets\EndingFadeToBlack.cs" />
      <Compile Include="Assets\Holograms\Support\AstroMan\SetRendererSettings.cs" />
      <Compile Include="Assets\Holograms\Support\Fitbox\Fitbox.cs" />
      <Compile Include="Assets\HoloToolkit\Boundary\Scripts\BoundaryManager.cs" />

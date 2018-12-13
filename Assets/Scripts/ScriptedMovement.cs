@@ -41,8 +41,9 @@ public class ScriptedMovement : MonoBehaviour
 	void Update()
 	{
 		//anim.SetInteger ("Condition", 0);
-		dist = Vector3.Distance (guy.transform.position, transform.position);
+		//dist = Vector3.Distance (guy.transform.position, transform.position);
 		if (counter.count == 1) {
+			dist = Vector3.Distance (guy.transform.position, transform.position);
 			anim.SetInteger ("Condition", 0);
 			if (dist > 10) {
 				anim.SetInteger ("Condition", 1);
@@ -55,8 +56,9 @@ public class ScriptedMovement : MonoBehaviour
 			}
 		}
 		//anim.SetInteger ("Condition", 0);
-		dist2 = Vector3.Distance (guy2.transform.position, transform.position);
+		//dist2 = Vector3.Distance (guy2.transform.position, transform.position);
 		if (counter.count == 2) {
+			dist2 = Vector3.Distance (guy2.transform.position, transform.position);
             if (dist2 > 10)
             {
                 transform.LookAt(guy2.transform);
@@ -68,15 +70,12 @@ public class ScriptedMovement : MonoBehaviour
                 anim.SetInteger("Condition", 0);
             }
         }
-		dist3 = Vector3.Distance (guy3.transform.position, transform.position);
+		//dist3 = Vector3.Distance (guy3.transform.position, transform.position);
         if (counter.count == 9)
         {
-                //if (dist3 < 10)
-                //{
-                transform.LookAt(goliathlocation.transform);
-                anim.SetInteger("Condition", 4);
-                //}
-            
+			dist3 = Vector3.Distance (guy3.transform.position, transform.position);
+			transform.LookAt(goliathlocation.transform);
+            anim.SetInteger("Condition", 4);
         }
 	}
 }

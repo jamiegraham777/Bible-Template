@@ -1150,7 +1150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &52670244
 AudioListener:
   m_ObjectHideFlags: 0
@@ -6506,7 +6506,6 @@ MonoBehaviour:
     KeyCode: 9
   - Keyword: help
     KeyCode: 0
-  recognitionConfidenceLevel: 1
 --- !u!4 &370861108
 Transform:
   m_ObjectHideFlags: 0
